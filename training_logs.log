@@ -1,0 +1,246 @@
+2024-10-14 00:41:12,802 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 11.6147, RMSE: 11.6147, Predicted: 788.39, Actual: 800.00
+2024-10-14 00:41:12,802 [INFO] *** New Best MAE: 11.6147 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 50, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 00:42:08,511 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 13.2850, RMSE: 13.2850, Predicted: 786.71, Actual: 800.00
+2024-10-14 00:42:38,444 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 13.5894, RMSE: 13.5894, Predicted: 786.41, Actual: 800.00
+2024-10-14 00:43:30,367 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 7.7081, RMSE: 7.7081, Predicted: 792.29, Actual: 800.00
+2024-10-14 00:43:30,367 [INFO] *** New Best MAE: 7.7081 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 50, 'dropout_rate': 0.3, 'units': 100} ***
+2024-10-14 00:44:00,216 [WARNING] 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001FE41635080> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-10-14 00:44:00,223 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 13.0618, RMSE: 13.0618, Predicted: 786.94, Actual: 800.00
+2024-10-14 00:44:51,304 [WARNING] 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001FE44BD7CE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-10-14 00:44:51,304 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 10.5718, RMSE: 10.5718, Predicted: 789.43, Actual: 800.00
+2024-10-14 00:45:20,919 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 15.1966, RMSE: 15.1966, Predicted: 784.80, Actual: 800.00
+2024-10-14 00:46:18,037 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 10.7177, RMSE: 10.7177, Predicted: 789.28, Actual: 800.00
+2024-10-14 00:46:45,144 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 11.8788, RMSE: 11.8788, Predicted: 788.12, Actual: 800.00
+2024-10-14 00:47:57,251 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 13.6403, RMSE: 13.6403, Predicted: 786.36, Actual: 800.00
+2024-10-14 00:48:28,192 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 13.7174, RMSE: 13.7174, Predicted: 786.28, Actual: 800.00
+2024-10-14 00:49:16,561 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 10.5219, RMSE: 10.5219, Predicted: 789.48, Actual: 800.00
+2024-10-14 00:49:31,624 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 6.2712, RMSE: 6.2712, Predicted: 793.73, Actual: 800.00
+2024-10-14 00:49:31,624 [INFO] *** New Best MAE: 6.2712 with params: {'sequence_length': 60, 'batch_size': 64, 'epochs': 50, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 00:50:57,152 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 11.6885, RMSE: 11.6885, Predicted: 788.31, Actual: 800.00
+2024-10-14 00:52:01,104 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 12.6025, RMSE: 12.6025, Predicted: 787.40, Actual: 800.00
+2024-10-14 00:52:37,336 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 0.9531, RMSE: 0.9531, Predicted: 799.05, Actual: 800.00
+2024-10-14 00:52:37,336 [INFO] *** New Best MAE: 0.9531 with params: {'sequence_length': 60, 'batch_size': 64, 'epochs': 50, 'dropout_rate': 0.3, 'units': 100} ***
+2024-10-14 00:53:09,154 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 7.6894, RMSE: 7.6894, Predicted: 792.31, Actual: 800.00
+2024-10-14 00:54:20,855 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 16.5642, RMSE: 16.5642, Predicted: 783.44, Actual: 800.00
+2024-10-14 00:55:01,045 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 1.4764, RMSE: 1.4764, Predicted: 798.52, Actual: 800.00
+2024-10-14 00:56:16,833 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 10.9500, RMSE: 10.9500, Predicted: 789.05, Actual: 800.00
+2024-10-14 00:57:08,370 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 7.4595, RMSE: 7.4595, Predicted: 792.54, Actual: 800.00
+2024-10-14 00:57:50,554 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 3.8102, RMSE: 3.8102, Predicted: 796.19, Actual: 800.00
+2024-10-14 00:58:09,624 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 8.6344, RMSE: 8.6344, Predicted: 791.37, Actual: 800.00
+2024-10-14 00:59:57,998 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 7.5275, RMSE: 7.5275, Predicted: 792.47, Actual: 800.00
+2024-10-14 01:00:18,049 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 3.4529, RMSE: 3.4529, Predicted: 803.45, Actual: 800.00
+2024-10-14 01:01:45,792 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 8.6675, RMSE: 8.6675, Predicted: 791.33, Actual: 800.00
+2024-10-14 01:02:25,196 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 7.7565, RMSE: 7.7565, Predicted: 792.24, Actual: 800.00
+2024-10-14 01:04:38,000 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 2.8755, RMSE: 2.8755, Predicted: 797.12, Actual: 800.00
+2024-10-14 01:05:14,884 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 0.6120, RMSE: 0.6120, Predicted: 799.39, Actual: 800.00
+2024-10-14 01:05:14,884 [INFO] *** New Best MAE: 0.6120 with params: {'sequence_length': 60, 'batch_size': 128, 'epochs': 100, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 01:08:09,571 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 9.2233, RMSE: 9.2233, Predicted: 790.78, Actual: 800.00
+2024-10-14 01:08:42,671 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 10.1600, RMSE: 10.1600, Predicted: 789.84, Actual: 800.00
+2024-10-14 01:10:11,848 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 11.3852, RMSE: 11.3852, Predicted: 788.61, Actual: 800.00
+2024-10-14 01:10:28,428 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 3.6611, RMSE: 3.6611, Predicted: 796.34, Actual: 800.00
+2024-10-14 01:11:21,180 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 16.5259, RMSE: 16.5259, Predicted: 783.47, Actual: 800.00
+2024-10-14 01:11:45,312 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 5.4819, RMSE: 5.4819, Predicted: 805.48, Actual: 800.00
+2024-10-14 01:12:47,604 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 12.6613, RMSE: 12.6613, Predicted: 787.34, Actual: 800.00
+2024-10-14 01:14:02,404 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 9.3216, RMSE: 9.3216, Predicted: 790.68, Actual: 800.00
+2024-10-14 01:16:45,164 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 13.4216, RMSE: 13.4216, Predicted: 786.58, Actual: 800.00
+2024-10-14 01:18:05,467 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 20.0482, RMSE: 20.0482, Predicted: 779.95, Actual: 800.00
+2024-10-14 01:19:45,632 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 18.2224, RMSE: 18.2224, Predicted: 781.78, Actual: 800.00
+2024-10-14 01:20:39,447 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 16.8704, RMSE: 16.8704, Predicted: 783.13, Actual: 800.00
+2024-10-14 01:22:56,629 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 18.5237, RMSE: 18.5237, Predicted: 781.48, Actual: 800.00
+2024-10-14 01:23:44,587 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 18.5938, RMSE: 18.5938, Predicted: 781.41, Actual: 800.00
+2024-10-14 01:26:00,323 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 21.9641, RMSE: 21.9641, Predicted: 778.04, Actual: 800.00
+2024-10-14 01:26:59,896 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 19.7885, RMSE: 19.7885, Predicted: 780.21, Actual: 800.00
+2024-10-14 01:28:43,243 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 17.2703, RMSE: 17.2703, Predicted: 782.73, Actual: 800.00
+2024-10-14 01:29:49,021 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 17.4062, RMSE: 17.4062, Predicted: 782.59, Actual: 800.00
+2024-10-14 01:31:34,592 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 23.3533, RMSE: 23.3533, Predicted: 776.65, Actual: 800.00
+2024-10-14 01:33:06,715 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 11.9707, RMSE: 11.9707, Predicted: 788.03, Actual: 800.00
+2024-10-14 01:35:29,245 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 9.7166, RMSE: 9.7166, Predicted: 790.28, Actual: 800.00
+2024-10-14 01:37:19,326 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 10.5861, RMSE: 10.5861, Predicted: 789.41, Actual: 800.00
+2024-10-14 01:40:26,589 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 10.4771, RMSE: 10.4771, Predicted: 789.52, Actual: 800.00
+2024-10-14 01:41:36,491 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 2.7582, RMSE: 2.7582, Predicted: 797.24, Actual: 800.00
+2024-10-14 01:45:20,786 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 7.9926, RMSE: 7.9926, Predicted: 792.01, Actual: 800.00
+2024-10-14 01:46:30,945 [INFO] Final Training with Best Parameters:
+2024-10-14 01:46:30,946 [INFO] MAE: 12.6009, RMSE: 12.6009, Predicted Price: 812.60, Actual Price: 800.00
+2024-10-14 01:47:40,716 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 19.2130, RMSE: 19.2130, Predicted: 780.79, Actual: 800.00
+2024-10-14 01:48:56,121 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 11.1953, RMSE: 11.1953, Predicted: 788.80, Actual: 800.00
+2024-10-14 01:49:54,410 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 2.7323, RMSE: 2.7323, Predicted: 797.27, Actual: 800.00
+2024-10-14 01:51:34,612 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 5.1577, RMSE: 5.1577, Predicted: 794.84, Actual: 800.00
+2024-10-14 01:52:53,749 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 10.4085, RMSE: 10.4085, Predicted: 789.59, Actual: 800.00
+2024-10-14 01:55:36,427 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 10.3013, RMSE: 10.3013, Predicted: 789.70, Actual: 800.00
+2024-10-14 01:57:06,078 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 5.6989, RMSE: 5.6989, Predicted: 794.30, Actual: 800.00
+2024-10-14 01:59:26,885 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 10.3743, RMSE: 10.3743, Predicted: 789.63, Actual: 800.00
+2024-10-14 02:00:48,239 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 7.1538, RMSE: 7.1538, Predicted: 792.85, Actual: 800.00
+2024-10-14 02:02:09,039 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 11.7266, RMSE: 11.7266, Predicted: 788.27, Actual: 800.00
+2024-10-14 02:03:42,079 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 8.1202, RMSE: 8.1202, Predicted: 791.88, Actual: 800.00
+2024-10-14 02:06:34,244 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 2.4341, RMSE: 2.4341, Predicted: 797.57, Actual: 800.00
+2024-10-14 02:08:04,167 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 2.8158, RMSE: 2.8158, Predicted: 797.18, Actual: 800.00
+2024-10-14 02:12:09,074 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 5.6591, RMSE: 5.6591, Predicted: 794.34, Actual: 800.00
+2024-10-14 02:13:48,098 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 9.3335, RMSE: 9.3335, Predicted: 790.67, Actual: 800.00
+2024-10-14 02:17:50,338 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 7.2486, RMSE: 7.2486, Predicted: 792.75, Actual: 800.00
+2024-10-14 02:19:19,569 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 12.7170, RMSE: 12.7170, Predicted: 787.28, Actual: 800.00
+2024-10-14 02:20:35,902 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 7.5750, RMSE: 7.5750, Predicted: 792.43, Actual: 800.00
+2024-10-14 02:20:35,914 [INFO] All hyperparameter tuning results saved to all_hyperparameter_results.csv
+2024-10-14 11:17:32,613 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 11.6147, RMSE: 11.6147, Predicted: 788.39, Actual: 800.00
+2024-10-14 11:17:32,613 [INFO] *** New Best MAE: 11.6147 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 50, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 11:18:28,046 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 13.2850, RMSE: 13.2850, Predicted: 786.71, Actual: 800.00
+2024-10-14 11:18:58,125 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 13.5894, RMSE: 13.5894, Predicted: 786.41, Actual: 800.00
+2024-10-14 11:19:50,767 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 7.7081, RMSE: 7.7081, Predicted: 792.29, Actual: 800.00
+2024-10-14 11:19:50,767 [INFO] *** New Best MAE: 7.7081 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 50, 'dropout_rate': 0.3, 'units': 100} ***
+2024-10-14 11:20:20,010 [WARNING] 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001DCB7591080> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-10-14 11:20:20,014 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 13.0618, RMSE: 13.0618, Predicted: 786.94, Actual: 800.00
+2024-10-14 11:21:10,333 [WARNING] 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001DCBAB2BCE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-10-14 11:21:10,337 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 10.5718, RMSE: 10.5718, Predicted: 789.43, Actual: 800.00
+2024-10-14 11:21:38,385 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 15.1966, RMSE: 15.1966, Predicted: 784.80, Actual: 800.00
+2024-10-14 11:22:31,631 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 10.7177, RMSE: 10.7177, Predicted: 789.28, Actual: 800.00
+2024-10-14 11:22:57,740 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 11.8788, RMSE: 11.8788, Predicted: 788.12, Actual: 800.00
+2024-10-14 11:23:51,651 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 13.6403, RMSE: 13.6403, Predicted: 786.36, Actual: 800.00
+2024-10-14 11:24:17,898 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 13.7174, RMSE: 13.7174, Predicted: 786.28, Actual: 800.00
+2024-10-14 11:25:06,408 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 10.5219, RMSE: 10.5219, Predicted: 789.48, Actual: 800.00
+2024-10-14 11:25:21,533 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 6.2712, RMSE: 6.2712, Predicted: 793.73, Actual: 800.00
+2024-10-14 11:25:21,533 [INFO] *** New Best MAE: 6.2712 with params: {'sequence_length': 60, 'batch_size': 64, 'epochs': 50, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 11:26:42,996 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 11.6885, RMSE: 11.6885, Predicted: 788.31, Actual: 800.00
+2024-10-14 11:27:33,337 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 12.6025, RMSE: 12.6025, Predicted: 787.40, Actual: 800.00
+2024-10-14 11:28:09,092 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 0.9531, RMSE: 0.9531, Predicted: 799.05, Actual: 800.00
+2024-10-14 11:28:09,092 [INFO] *** New Best MAE: 0.9531 with params: {'sequence_length': 60, 'batch_size': 64, 'epochs': 50, 'dropout_rate': 0.3, 'units': 100} ***
+2024-10-14 11:28:41,727 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 7.6894, RMSE: 7.6894, Predicted: 792.31, Actual: 800.00
+2024-10-14 11:37:02,840 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 16.5642, RMSE: 16.5642, Predicted: 783.44, Actual: 800.00
+2024-10-14 11:43:34,628 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 1.4764, RMSE: 1.4764, Predicted: 798.52, Actual: 800.00
+2024-10-14 11:44:50,527 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 10.9500, RMSE: 10.9500, Predicted: 789.05, Actual: 800.00
+2024-10-14 11:45:41,955 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 7.4595, RMSE: 7.4595, Predicted: 792.54, Actual: 800.00
+2024-10-14 11:46:25,948 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 3.8102, RMSE: 3.8102, Predicted: 796.19, Actual: 800.00
+2024-10-14 11:46:45,750 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 8.6344, RMSE: 8.6344, Predicted: 791.37, Actual: 800.00
+2024-10-14 11:48:15,824 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 7.5275, RMSE: 7.5275, Predicted: 792.47, Actual: 800.00
+2024-10-14 11:48:36,927 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 3.4529, RMSE: 3.4529, Predicted: 803.45, Actual: 800.00
+2024-10-14 11:49:39,159 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 8.6675, RMSE: 8.6675, Predicted: 791.33, Actual: 800.00
+2024-10-14 11:50:07,784 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 7.7565, RMSE: 7.7565, Predicted: 792.24, Actual: 800.00
+2024-10-14 11:51:31,023 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 2.8755, RMSE: 2.8755, Predicted: 797.12, Actual: 800.00
+2024-10-14 11:51:55,840 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 0.6120, RMSE: 0.6120, Predicted: 799.39, Actual: 800.00
+2024-10-14 11:51:55,840 [INFO] *** New Best MAE: 0.6120 with params: {'sequence_length': 60, 'batch_size': 128, 'epochs': 100, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 11:53:46,812 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 9.2233, RMSE: 9.2233, Predicted: 790.78, Actu   al: 800.00
+2024-10-14 11:54:15,283 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 10.1600, RMSE: 10.1600, Predicted: 789.84, Actual: 800.00
+2024-10-14 11:55:46,723 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 11.3852, RMSE: 11.3852, Predicted: 788.61, Actual: 800.00
+2024-10-14 11:56:03,090 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 3.6611, RMSE: 3.6611, Predicted: 796.34, Actual: 800.00
+2024-10-14 11:56:52,577 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 16.5259, RMSE: 16.5259, Predicted: 783.47, Actual: 800.00
+2024-10-14 11:57:15,715 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 5.4819, RMSE: 5.4819, Predicted: 805.48, Actual: 800.00
+2024-10-14 11:57:56,166 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 12.6613, RMSE: 12.6613, Predicted: 787.34, Actual: 800.00
+2024-10-14 11:58:48,264 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 9.3216, RMSE: 9.3216, Predicted: 790.68, Actual: 800.00
+2024-10-14 12:00:37,355 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 13.4216, RMSE: 13.4216, Predicted: 786.58, Actual: 800.00
+2024-10-14 12:01:34,145 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 20.0482, RMSE: 20.0482, Predicted: 779.95, Actual: 800.00
+2024-10-14 12:03:04,060 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 18.2224, RMSE: 18.2224, Predicted: 781.78, Actual: 800.00
+2024-10-14 12:03:55,707 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 16.8704, RMSE: 16.8704, Predicted: 783.13, Actual: 800.00
+2024-10-14 12:05:40,230 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 18.5237, RMSE: 18.5237, Predicted: 781.48, Actual: 800.00
+2024-10-14 12:06:32,052 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 18.5938, RMSE: 18.5938, Predicted: 781.41, Actual: 800.00
+2024-10-14 12:08:34,002 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 21.9641, RMSE: 21.9641, Predicted: 778.04, Actual: 800.00
+2024-10-14 12:09:33,708 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 19.7885, RMSE: 19.7885, Predicted: 780.21, Actual: 800.00
+2024-10-14 12:11:40,005 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 17.2703, RMSE: 17.2703, Predicted: 782.73, Actual: 800.00
+2024-10-14 12:13:30,807 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 17.4062, RMSE: 17.4062, Predicted: 782.59, Actual: 800.00
+2024-10-14 12:16:29,532 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 23.3533, RMSE: 23.3533, Predicted: 776.65, Actual: 800.00
+2024-10-14 12:20:00,502 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 11.9707, RMSE: 11.9707, Predicted: 788.03, Actual: 800.00
+2024-10-14 12:30:10,487 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 9.7166, RMSE: 9.7166, Predicted: 790.28, Actual: 800.00
+2024-10-14 12:37:56,527 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 10.5861, RMSE: 10.5861, Predicted: 789.41, Actual: 800.00
+2024-10-14 12:46:53,160 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 10.4771, RMSE: 10.4771, Predicted: 789.52, Actual: 800.00
+2024-10-14 12:48:21,963 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 2.7582, RMSE: 2.7582, Predicted: 797.24, Actual: 800.00
+2024-10-14 12:51:49,617 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 7.9926, RMSE: 7.9926, Predicted: 792.01, Actual: 800.00
+2024-10-14 12:54:28,709 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 19.2130, RMSE: 19.2130, Predicted: 780.79, Actual: 800.00
+2024-10-14 12:55:46,075 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 11.1953, RMSE: 11.1953, Predicted: 788.80, Actual: 800.00
+2024-10-14 12:56:27,358 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 2.7323, RMSE: 2.7323, Predicted: 797.27, Actual: 800.00
+2024-10-14 12:57:42,089 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 5.1577, RMSE: 5.1577, Predicted: 794.84, Actual: 800.00
+2024-10-14 12:58:42,241 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 10.4085, RMSE: 10.4085, Predicted: 789.59, Actual: 800.00
+2024-10-14 13:01:35,273 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 10.3013, RMSE: 10.3013, Predicted: 789.70, Actual: 800.00
+2024-10-14 13:03:09,328 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 5.6989, RMSE: 5.6989, Predicted: 794.30, Actual: 800.00
+2024-10-14 13:06:10,683 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 10.3743, RMSE: 10.3743, Predicted: 789.63, Actual: 800.00
+2024-10-14 13:08:01,184 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 7.1538, RMSE: 7.1538, Predicted: 792.85, Actual: 800.00
+2024-10-14 13:09:56,235 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 11.7266, RMSE: 11.7266, Predicted: 788.27, Actual: 800.00
+2024-10-14 13:11:56,763 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 8.1202, RMSE: 8.1202, Predicted: 791.88, Actual: 800.00
+2024-10-14 13:14:36,804 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 2.4341, RMSE: 2.4341, Predicted: 797.57, Actual: 800.00
+2024-10-14 13:16:02,666 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 2.8158, RMSE: 2.8158, Predicted: 797.18, Actual: 800.00
+2024-10-14 13:25:11,560 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 178.1091, RMSE: 178.1091, Predicted: 621.89, Actual: 800.00
+2024-10-14 13:25:11,560 [INFO] *** New Best MAE: 178.1091 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 50, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 13:25:41,631 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 325.2632, RMSE: 325.2632, Predicted: 474.74, Actual: 800.00
+2024-10-14 13:26:01,181 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 142.6992, RMSE: 142.6992, Predicted: 657.30, Actual: 800.00
+2024-10-14 13:26:01,181 [INFO] *** New Best MAE: 142.6992 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 50, 'dropout_rate': 0.3, 'units': 50} ***
+2024-10-14 13:26:30,689 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 243.5065, RMSE: 243.5065, Predicted: 556.49, Actual: 800.00
+2024-10-14 13:26:50,269 [WARNING] 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001842D5D5440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-10-14 13:26:50,273 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 154.5339, RMSE: 154.5339, Predicted: 645.47, Actual: 800.00
+2024-10-14 13:27:19,097 [WARNING] 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000018438F72D40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-10-14 13:27:19,103 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 197.9774, RMSE: 197.9774, Predicted: 602.02, Actual: 800.00
+2024-10-14 13:27:40,227 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 188.9238, RMSE: 188.9238, Predicted: 611.08, Actual: 800.00
+2024-10-14 13:28:09,602 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 126.6216, RMSE: 126.6216, Predicted: 673.38, Actual: 800.00
+2024-10-14 13:28:09,602 [INFO] *** New Best MAE: 126.6216 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 100, 'dropout_rate': 0.3, 'units': 100} ***
+2024-10-14 13:28:29,501 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 209.5000, RMSE: 209.5000, Predicted: 590.50, Actual: 800.00
+2024-10-14 13:28:58,948 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 148.1474, RMSE: 148.1474, Predicted: 651.85, Actual: 800.00
+2024-10-14 13:29:19,077 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 58.8061, RMSE: 58.8061, Predicted: 741.19, Actual: 800.00
+2024-10-14 13:29:19,077 [INFO] *** New Best MAE: 58.8061 with params: {'sequence_length': 60, 'batch_size': 32, 'epochs': 150, 'dropout_rate': 0.3, 'units': 50} ***
+2024-10-14 13:29:48,994 [INFO] Sequence Length: 60, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 285.2786, RMSE: 285.2786, Predicted: 514.72, Actual: 800.00
+2024-10-14 13:30:03,604 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 359.2504, RMSE: 359.2504, Predicted: 440.75, Actual: 800.00
+2024-10-14 13:30:32,163 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 82.8107, RMSE: 82.8107, Predicted: 717.19, Actual: 800.00
+2024-10-14 13:30:46,790 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 309.7727, RMSE: 309.7727, Predicted: 490.23, Actual: 800.00
+2024-10-14 13:31:14,316 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 286.4855, RMSE: 286.4855, Predicted: 513.51, Actual: 800.00
+2024-10-14 13:31:52,076 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 240.8881, RMSE: 240.8881, Predicted: 559.11, Actual: 800.00
+2024-10-14 13:32:18,763 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 307.1828, RMSE: 307.1828, Predicted: 492.82, Actual: 800.00
+2024-10-14 13:32:33,337 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 292.0501, RMSE: 292.0501, Predicted: 507.95, Actual: 800.00
+2024-10-14 13:32:59,850 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 255.8774, RMSE: 255.8774, Predicted: 544.12, Actual: 800.00
+2024-10-14 13:33:14,248 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 338.2665, RMSE: 338.2665, Predicted: 461.73, Actual: 800.00
+2024-10-14 13:33:40,244 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 331.0778, RMSE: 331.0778, Predicted: 468.92, Actual: 800.00
+2024-10-14 13:33:54,204 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 376.1258, RMSE: 376.1258, Predicted: 423.87, Actual: 800.00
+2024-10-14 13:34:23,107 [INFO] Sequence Length: 60, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 273.1419, RMSE: 273.1419, Predicted: 526.86, Actual: 800.00
+2024-10-14 13:34:43,776 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 131.8102, RMSE: 131.8102, Predicted: 668.19, Actual: 800.00
+2024-10-14 13:35:18,779 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 114.4359, RMSE: 114.4359, Predicted: 685.56, Actual: 800.00
+2024-10-14 13:35:45,926 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 179.1567, RMSE: 179.1567, Predicted: 620.84, Actual: 800.00
+2024-10-14 13:36:07,025 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 242.3233, RMSE: 242.3233, Predicted: 557.68, Actual: 800.00
+2024-10-14 13:36:27,589 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 217.1691, RMSE: 217.1691, Predicted: 582.83, Actual: 800.00
+2024-10-14 13:37:06,242 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 177.9742, RMSE: 177.9742, Predicted: 622.03, Actual: 800.00
+2024-10-14 13:37:37,759 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 187.2899, RMSE: 187.2899, Predicted: 612.71, Actual: 800.00
+2024-10-14 13:38:22,536 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 81.0726, RMSE: 81.0726, Predicted: 718.93, Actual: 800.00
+2024-10-14 13:38:43,725 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 3.0032, RMSE: 3.0032, Predicted: 803.00, Actual: 800.00
+2024-10-14 13:38:43,725 [INFO] *** New Best MAE: 3.0032 with params: {'sequence_length': 60, 'batch_size': 128, 'epochs': 150, 'dropout_rate': 0.2, 'units': 50} ***
+2024-10-14 13:39:22,937 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 463.9479, RMSE: 463.9479, Predicted: 336.05, Actual: 800.00
+2024-10-14 13:39:43,852 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 75.3533, RMSE: 75.3533, Predicted: 724.65, Actual: 800.00
+2024-10-14 13:40:17,884 [INFO] Sequence Length: 60, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 314.0999, RMSE: 314.0999, Predicted: 485.90, Actual: 800.00
+2024-10-14 13:41:11,020 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 18.6929, RMSE: 18.6929, Predicted: 818.69, Actual: 800.00
+2024-10-14 13:42:40,829 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 243.4598, RMSE: 243.4598, Predicted: 556.54, Actual: 800.00
+2024-10-14 13:43:32,553 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 121.9307, RMSE: 121.9307, Predicted: 678.07, Actual: 800.00
+2024-10-14 13:44:56,718 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 160.2705, RMSE: 160.2705, Predicted: 639.73, Actual: 800.00
+2024-10-14 13:45:49,492 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 76.3525, RMSE: 76.3525, Predicted: 723.65, Actual: 800.00
+2024-10-14 13:47:14,708 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 40.4175, RMSE: 40.4175, Predicted: 759.58, Actual: 800.00
+2024-10-14 13:48:06,534 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 85.2992, RMSE: 85.2992, Predicted: 714.70, Actual: 800.00
+2024-10-14 13:49:29,851 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 146.2828, RMSE: 146.2828, Predicted: 653.72, Actual: 800.00
+2024-10-14 13:50:21,620 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 135.9348, RMSE: 135.9348, Predicted: 664.07, Actual: 800.00
+2024-10-14 13:51:38,371 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 206.3932, RMSE: 206.3932, Predicted: 593.61, Actual: 800.00
+2024-10-14 13:52:41,662 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 125.7610, RMSE: 125.7610, Predicted: 674.24, Actual: 800.00
+2024-10-14 13:54:10,392 [INFO] Sequence Length: 120, Batch Size: 32, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 251.9334, RMSE: 251.9334, Predicted: 548.07, Actual: 800.00
+2024-10-14 13:54:52,608 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 360.1983, RMSE: 360.1983, Predicted: 439.80, Actual: 800.00
+2024-10-14 13:56:17,832 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 306.2613, RMSE: 306.2613, Predicted: 493.74, Actual: 800.00
+2024-10-14 13:56:59,240 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 349.1704, RMSE: 349.1704, Predicted: 450.83, Actual: 800.00
+2024-10-14 13:58:24,701 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 284.1442, RMSE: 284.1442, Predicted: 515.86, Actual: 800.00
+2024-10-14 13:59:05,669 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 331.3835, RMSE: 331.3835, Predicted: 468.62, Actual: 800.00
+2024-10-14 14:00:35,954 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 250.6880, RMSE: 250.6880, Predicted: 549.31, Actual: 800.00
+2024-10-14 14:01:17,576 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 340.9070, RMSE: 340.9070, Predicted: 459.09, Actual: 800.00
+2024-10-14 14:02:26,490 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 270.1700, RMSE: 270.1700, Predicted: 529.83, Actual: 800.00
+2024-10-14 14:02:57,753 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 354.1051, RMSE: 354.1051, Predicted: 445.89, Actual: 800.00
+2024-10-14 14:04:07,385 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 264.0493, RMSE: 264.0493, Predicted: 535.95, Actual: 800.00
+2024-10-14 14:04:39,625 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 397.6417, RMSE: 397.6417, Predicted: 402.36, Actual: 800.00
+2024-10-14 14:05:52,885 [INFO] Sequence Length: 120, Batch Size: 64, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 274.3048, RMSE: 274.3048, Predicted: 525.70, Actual: 800.00
+2024-10-14 14:06:20,376 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 50 --> MAE: 399.2719, RMSE: 399.2719, Predicted: 400.73, Actual: 800.00
+2024-10-14 14:07:09,524 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.2, Units: 100 --> MAE: 355.3568, RMSE: 355.3568, Predicted: 444.64, Actual: 800.00
+2024-10-14 14:07:50,225 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 50 --> MAE: 443.6537, RMSE: 443.6537, Predicted: 356.35, Actual: 800.00
+2024-10-14 14:09:02,424 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 50, Dropout: 0.3, Units: 100 --> MAE: 402.6677, RMSE: 402.6677, Predicted: 397.33, Actual: 800.00
+2024-10-14 14:09:42,365 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 50 --> MAE: 378.4261, RMSE: 378.4261, Predicted: 421.57, Actual: 800.00
+2024-10-14 14:11:00,118 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.2, Units: 100 --> MAE: 362.2997, RMSE: 362.2997, Predicted: 437.70, Actual: 800.00
+2024-10-14 14:13:09,420 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 50 --> MAE: 276.6459, RMSE: 276.6459, Predicted: 523.35, Actual: 800.00
+2024-10-14 14:14:24,175 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 100, Dropout: 0.3, Units: 100 --> MAE: 364.7655, RMSE: 364.7655, Predicted: 435.23, Actual: 800.00
+2024-10-14 14:15:03,738 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 50 --> MAE: 365.0991, RMSE: 365.0991, Predicted: 434.90, Actual: 800.00
+2024-10-14 14:16:20,230 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.2, Units: 100 --> MAE: 370.4558, RMSE: 370.4558, Predicted: 429.54, Actual: 800.00
+2024-10-14 14:17:59,539 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 50 --> MAE: 294.5734, RMSE: 294.5734, Predicted: 505.43, Actual: 800.00
+2024-10-14 14:19:22,790 [INFO] Sequence Length: 120, Batch Size: 128, Epochs: 150, Dropout: 0.3, Units: 100 --> MAE: 331.2450, RMSE: 331.2450, Predicted: 468.75, Actual: 800.00
+2024-10-14 14:19:22,805 [INFO] Optimal Hyperparameters: {'sequence_length': 60, 'batch_size': 128, 'epochs': 150, 'dropout_rate': 0.2, 'units': 50} with MAE: 3.0032
+2024-10-14 14:19:22,821 [INFO] All hyperparameter tuning results saved to all_hyperparameter_results.csv
+2024-10-14 14:35:34,428 [INFO] Final Training with Best Parameters:
+2024-10-14 14:35:34,429 [INFO] MAE: 12.6008, RMSE: 12.6008, Predicted Price: 812.60, Actual Price: 800.00
+2024-10-14 14:46:00,318 [INFO] Predictions saved to predictions.csv
+2024-10-15 17:44:28,086 [INFO] Predictions saved to predictions.csv
+2024-10-15 17:48:24,002 [INFO] Predictions saved to predictions.csv
+2024-10-15 17:50:33,839 [INFO] Predictions saved to predictions.csv
+2024-10-15 17:51:05,476 [INFO] Predictions saved to predictions.csv
+2024-10-15 17:55:36,978 [INFO] Predictions saved to predictions.csv
+2024-11-26 23:22:42,212 [INFO] Predictions saved to predictions.csv

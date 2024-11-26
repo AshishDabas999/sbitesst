@@ -1,0 +1,2 @@
+2024-10-14 14:30:24,763 [INFO] Test MAE: 134.0684, Test RMSE: 162.2718
+2024-10-14 14:30:24,768 [INFO] Predictions comparison saved to predictions_comparison.csv
